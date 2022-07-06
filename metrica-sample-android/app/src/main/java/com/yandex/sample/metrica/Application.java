@@ -20,7 +20,7 @@ public class Application extends android.app.Application {
         /* Replace API_KEY with your unique API key. Please, read official documentation how to obtain one:
          https://tech.yandex.com/metrica-mobile-sdk/doc/mobile-sdk-dg/concepts/android-initialize-docpage/
          */
-        YandexMetricaConfig config = YandexMetricaConfig.newConfigBuilder("API_KEY").withLogs().build();
+        YandexMetricaConfig config = YandexMetricaConfig.newConfigBuilder("3cb89772-20e3-4a8a-82d0-68323aed02dc").withLogs().build();
         YandexMetrica.activate(this, config);
     }
 }
